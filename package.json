@@ -1,0 +1,49 @@
+{
+  "name": "node_gulp",
+  "version": "1.0.0",
+  "description": "Test project",
+  "main": "index.js",
+  "local-web-server": {
+    "port": 8100,
+    "forbid": "*.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ws"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": false
+      }
+    },
+    "rules": {
+      "semi": 1,
+      "block-scoped-var": 2,
+      "dot-notation": 1,
+      "eqeqeq": 1,
+      "no-multi-spaces": 1
+    }
+  },
+  "author": "Reuben Ringdal",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-webserver": "^0.9.1",
+    "pump": "^1.0.2",
+    "rename": "^1.0.4"
+  }
+}

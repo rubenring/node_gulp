@@ -1,0 +1,13 @@
+.container{
+  background-color: lightblue;
+  padding: 1em;
+  .header{
+    padding: 0.5em;
+    background-color: $headercolor;
+  }
+  .clickbtn{
+    color: green;
+    background-color: $dangerRed;
+    display: block;
+  }
+}
